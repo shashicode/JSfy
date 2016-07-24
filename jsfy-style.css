@@ -1,0 +1,19 @@
+/*
+    Slider styling
+*/
+
+.jsfy-parent-slider-wrapper{
+    position: relative;
+    width: 100%;
+}
+
+.jsfy-slider-image{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.jsfy-slider-image:first-child{
+    display: block;
+}

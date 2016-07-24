@@ -49,4 +49,21 @@
 * */
 
 
- }(jQuery));
+/*
+* Tooltip starts
+* */
+    var tooltipVal;
+
+    $('.jsfy-tooltip').hover(function () {
+        tooltipVal = $(this).attr('title');
+        $(this).prepend('<p class="jsfy-span-popup"><span>' + tooltipVal + '</span></p>');
+    }, function () {
+        $('.jsfy-span-popup').remove();
+    });
+
+/*
+ * Tooltip ends
+ * */
+
+
+}(jQuery));

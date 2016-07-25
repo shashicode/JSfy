@@ -4,6 +4,9 @@ JSfy will come handy when you are not using frameworks like bootstrap in your we
 
 You can very easily add a component like "Fading slider", "Tool-tip" etc by just adding JSfy in your project.
 
+### Using this library
+Include jsfy-style.css and jsfy.js in your project and you are good to go.
+
 ### Dependencies
 This project is dependent of jQuery, recommend using jQuery CDN for this to work.
 

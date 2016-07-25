@@ -29,7 +29,7 @@
         // Hides all the slider element
         sliderImage.hide();
 
-        // Shows the element at position based of vaule of count
+        // Shows the element at position based of value of count
         sliderImage.eq(count).fadeIn();
 
         // Increments the count for next image
